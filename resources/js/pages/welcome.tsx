@@ -117,7 +117,7 @@ export default function Welcome() {
                     >
                         <source
                             src={
-                                '/videos/video-rsms.mp4'
+                                'http://rsms.makara.rocks/videos/video-rsms.mp4'
                             }
                             type={'video/mp4'}
                         />
