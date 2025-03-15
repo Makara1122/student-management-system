@@ -104,11 +104,11 @@ export default function Welcome() {
                         Date: <span className={'text-sm font-thin text-black'}>15.03.2025</span>
                     </p>
                 </div>
-                <div className={'h-72 w-96 rounded-md bg-green-600 text-wrap'}>
+                <div className={'h-72 w-96 rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 text-wrap'}>
                     {/*    video and animation and autoplay of innovation  */}
                     <video
                         className={
-                            'h-full w-full rounded-md object-cover hover:border-t-4 hover:border-r-4 hover:border-gray-500 hover:transition hover:duration-700'
+                            'h-full w-full rounded-md  object-center object-contain'
                         }
                         controls
                         autoPlay
@@ -117,10 +117,12 @@ export default function Welcome() {
                     >
                         <source
                             src={
-                                'http://rsms.makara.rocks/videos/video-rsms.mp4'
+                                '/videos/technology.mp4'
                             }
                             type={'video/mp4'}
                         />
+
+
                     </video>
                 </div>
             </section>
