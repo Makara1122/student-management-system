@@ -117,7 +117,7 @@ export default function Welcome() {
                     >
                         <source
                             src={
-                                'https://videocdn.cdnpk.net/videos/bcc3248d-4a6b-5a1c-a841-595f8fa9b612/horizontal/previews/clear/large.mp4?token=exp=1742057006~hmac=64eee920e001d8ccdca9daf4ba1ab622b6a7ce053ad15f6b82d1419991b3b6ab'
+                                '/videos/video-rsms.mp4'
                             }
                             type={'video/mp4'}
                         />
